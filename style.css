@@ -1,0 +1,138 @@
+body{
+    background-color: #F7EED3;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+ margin-left: 5%;
+ margin-right: 5%;  
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vh;
+
+}
+.pic{
+width: 90%;
+height: 30%;
+border-radius: 10px;
+
+}
+
+
+nav ul{
+    display:block;
+    list-style: none;
+    text-align: center;
+    background-color: #AAB396;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+    
+}
+#hours{
+    list-style: none;
+
+}
+a{
+    color: #815b4a;
+text-decoration: none;
+
+}
+nav li{
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 30px;
+}
+a:hover{
+    font-size: 2.2rem;
+}
+section{
+    display: flex;
+    gap: 1rem;
+}
+
+.hov:hover{
+    transform: rotateY(10deg);
+
+}
+
+.hov{
+    background-color: #fbe5a0;
+    border-radius: 10px;
+    border: solid #775e52 2px ;
+    padding: 1rem 1rem;
+    text-align: justify;
+    font-size: 1.1rem;
+
+    
+}
+#banner{
+    background-image: url(assets/menu.jpg);
+    border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 2rem;
+  margin-bottom: 30px;
+color: whitesmoke ;
+
+}
+footer{
+    display: flex;
+    background-color: #775e52;
+    margin-top: 10px;
+    height: 65px;
+    font-size: 1.2rem;
+    color: rgb(243, 229, 73);
+}
+#logofooter{
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 10px;    
+}
+#logofooter:hover{
+    transform: rotateZ(360deg);
+    transition: 1s;
+    width: 30px;
+}
+footer div{
+    flex: 1;
+}
+
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (max-width: 930px){
+    #text{
+        display: block;
+    }
+
+  }
